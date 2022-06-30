@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Atyp';
+    src:
+        url('../fonts/AtypText-Bold.woff2') format('woff2'),
+        url('../fonts/AtypText-Bold.woff') format('woff'),
+        url('../fonts/AtypText-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Atyp';
+    src:
+    	url('../fonts/AtypText-Regular.woff2') format('woff2'),
+        url('../fonts/AtypText-Regular.woff') format('woff'),
+        url('../fonts/AtypText-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+	width: 1920;
+	height: 3467px;
+}
+
+.container-header {
+    width: 1920px;
+    height: 110px;
+}
+
+.logo-principal {
+    margin-left: 208px;
+    margin-top: 40px;
+
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 1050px;
+    margin-top: 47px;
+}
+
+li {
+    display: inline;
+}
+
+.menu {
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 73px;
+    line-height: 19px;
+    letter-spacing: 0.013em;
+    color: black;
+    font-family: "Atyp";
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
+.container-um {
+    width: 1920px;
+    height: 815px;
+    background: linear-gradient(107.31deg, #C1FFE8 -11.65%, rgba(193, 255, 232, 0) 112.04%);
+}
+
+.titulo-principal {
+	display: inline-block;
+	width: 740px;
+	font-size: 4.3125rem;
+	margin-left: 210px;
+	margin-top: 142px;
+	line-height: 72px;
+	color: #030314;
+	font-family: "Atyp";
+	font-weight: 700;
+	font-style: normal;
+}
+
+.digital {
+	position: relative;
+	right: 10px;
+	font-size: 53px;
+	color: #ffffff;
+	background: #0CD68A;
+	line-height: 40px;
+	letter-spacing: -0.015em;
+	padding: 10px 10px 5px;
+	font-family: "Atyp";
+	font-weight: 700;
+	font-style: normal;
+}
+
+.paragrafo-um {
+	width: 623px;
+	font-size: 20px;
+	line-height: 31px;
+	margin: 40px 0 40px 210px;
+	color: #70798B;
+	letter-spacing: -0.015em;
+	font-family: "Atyp";
+	font-weight: 400;
+	font-style: normal;
+
+}
+
+.abra-conta {
+	width: 400px;
+	height: 72px;
+	margin-left: 210px;
+	background: #030314;
+	color: #ffffff;
+}
+
+.paragrafo-dois {
+	width: 413px;
+	margin: 40px 0 20px 210px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #030314;
+	line-height: 35px;
+	letter-spacing: -0.015em;
+	font-family: "Atyp";
+	font-style: normal;
+}
+
+.paragrafo-tres {
+	width: 370px;
+	font-size: 17px;
+	line-height: 24px;
+	color: #575757;
+	margin-left: 210px;
+	font-family: "Atyp";
+	font-weight: 400;
+	font-style: normal;
+}
+
+.img-principal {
+	position: relative;
+	top: -610px;
+	left: 700px;
+
+}
+
+/* Início do Container Dois */
+
+.container-dois {
+	width: 1920px;
+}
+
+.titulo-dois {
+	text-align: center;
+	font-size: 20px;
+	color: #0CD68A;
+	line-height: 29px;
+	letter-spacing: 0.4em;
+	margin-top: 80px;
+	margin-bottom: 20px;
+	font-family: "Atyp";
+	font-weight: 700;
+	font-style: normal;
+}
+
+.titulo-tres {
+	text-align: center;
+	font-size: 50px;
+	font-family: "Atyp";
+	font-weight: 700;
+	font-style: normal;
+	line-height: 64px;
+}
+
+.container-boxes {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 80px;
+}
+
+.box-um {
+	width: 264px;
+	height: 264px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+}
+
+.box-dois {
+	width: 264px;
+	height: 264px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+	margin-left: 48px;
+}
+
+.box-tres {
+	width: 264px;
+	height: 264px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+	margin-left: 48px;
+}
+
+.box-quatro {
+	width: 264px;
+	height: 264px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+	margin-left: 48px;
+}
+
+.quadrado-box-um {
+	width: 48px;
+	height: 48px;
+	background: #C4FFE9;
+	border-radius: 4px;
+}
+
+.quadrado-box-dois {
+	width: 48px;
+	height: 48px;
+	background: #C3F4FF;
+	border-radius: 4px;
+}
+
+.quadrado-box-tres {
+	width: 48px;
+	height: 48px;
+	background: #F6C3FF;
+	border-radius: 4px;
+}
+
+.quadrado-box-quatro {
+	width: 48px;
+	height: 48px;
+	background: #FFC3C7;
+	border-radius: 4px;
+}
+
+
+
+
+
+
