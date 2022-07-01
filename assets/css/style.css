@@ -5,7 +5,17 @@
 }
 
 @font-face {
-    font-family: 'Atyp';
+    font-family: "Atyp";
+    src:
+        url('../fonts/AtypText-Thin.woff2') format('woff2'),
+        url('../fonts/AtypText-Thin.woff') format('woff'),
+        url('../fonts/AtypText-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: "Atyp";
     src:
         url('../fonts/AtypText-Bold.woff2') format('woff2'),
         url('../fonts/AtypText-Bold.woff') format('woff'),
@@ -15,7 +25,7 @@
   }
 
 @font-face {
-    font-family: 'Atyp';
+    font-family: "Atyp";
     src:
     	url('../fonts/AtypText-Regular.woff2') format('woff2'),
         url('../fonts/AtypText-Regular.woff') format('woff'),
@@ -189,6 +199,7 @@ li {
 	width: 264px;
 	height: 264px;
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+
 }
 
 .box-dois {
@@ -213,32 +224,164 @@ li {
 }
 
 .quadrado-box-um {
+	position: relative;
+	top: 32px;
+	left: 24px;
 	width: 48px;
 	height: 48px;
 	background: #C4FFE9;
 	border-radius: 4px;
+	
+}
+
+.cifrao {
+	position: relative;
+	top: 11px;
+	left: 17px;
+	width: 14px;
+	height: 24px;
+	
 }
 
 .quadrado-box-dois {
+	position: relative;
+	top: 32px;
+	left: 24px;
+	width: 48px;
+	height: 48px;
+	border-radius: 4px;
 	width: 48px;
 	height: 48px;
 	background: #C3F4FF;
 	border-radius: 4px;
 }
 
+.seta-um-box-dois {
+	position: relative;
+	top: 8px;
+	left: 28px;
+	border-radius: 100px;
+
+}
+
+.retangulo-um-box-dois {
+	position: relative;
+	top: 5px;
+	left: 4px;
+	border-radius: 100px;
+}
+
+.seta-dois-box-dois {
+	position: relative;
+	top: 20px;
+	right: 17px;
+}
+
+.retangulo-dois-box-dois {
+	position: relative;
+	top: -3px;
+	right: -15px;
+}
+
 .quadrado-box-tres {
+	position: relative;
+	top: 32px;
+	left: 24px;
 	width: 48px;
 	height: 48px;
+	border-radius: 4px;
 	background: #F6C3FF;
 	border-radius: 4px;
 }
 
+.retangulo-box-tres {
+	position: relative;
+	top: 14px;
+	left: 10px;
+	border-radius: 4px;
+}
+
+.vector-dois-box-tres {
+	position: relative;
+	top: -14px;
+	left: 10px;
+}
+
 .quadrado-box-quatro {
+	position: relative;
+	top: 32px;
+	left: 24px;
 	width: 48px;
 	height: 48px;
+	border-radius: 4px;
 	background: #FFC3C7;
 	border-radius: 4px;
 }
+
+.vector-base-box-quatro {
+	position: relative;
+	top: 14px;
+	left: 11px;
+}
+
+.vector-vertical-um-box-quatro {
+	position: relative;
+	top: 12px;
+	right: 16px;
+}
+
+.vector-vertical-dois-box-quatro {
+	position: relative;
+	top: 12px;
+	right: 18px;
+}
+
+.vector-vertical-tres-box-quatro {
+	position: relative;
+	top: -7px;
+	left: 29px;
+}
+
+.paragrafo-boxes {
+	position: relative;
+	top: 70px;
+	font-size: 22px;
+	line-height: 31px;
+	font-family: "Atyp";
+	font-style: normal;
+	font-weight: 400;
+	margin: 0 24px;
+	color: #030314;
+
+
+}
+
+.leia-mais {
+	position: relative;
+	top: 105px;
+	left: 24px;
+	font-size: 18px;
+	font-family: "Atyp";
+	line-height: 26px;
+	color: #0CD68A;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+}
+
+
+
+/* Início do Container Três */
+
+.container-tres {
+	width: 1920px;
+	height: 560px;
+	margin-top: 193px;
+	background: linear-gradient(99.7deg, #ACFFDF -22.05%, rgba(172, 255, 223, 0) 119.51%);
+}
+
+
+
 
 
 
