@@ -588,6 +588,10 @@ li:nth-child(4) {
 	background-repeat: no-repeat;
 	background-position: center;
 	cursor: pointer;
+}
+
+.submit-email:hover {
+	background-color: rgba(255, 198, 58, 0.8);
 
 }
 
