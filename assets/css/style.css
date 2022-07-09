@@ -55,6 +55,10 @@ li {
     display: inline;
 }
 
+li:nth-child(4) {
+	text-decoration: underline;
+}
+
 .menu {
     font-size: .8125rem;
     text-decoration: none;
@@ -120,6 +124,25 @@ li {
 	margin-left: 13.125rem;
 	background: #030314;
 	color: #ffffff;
+	font-size: 24px;
+	font-family: "Atyp";
+	font-weight: 700;
+	font-style: normal;
+	line-height: 35px;
+}
+
+.circulo-verde {
+	display: inline-block;
+	position: relative;
+	top: 7px;
+	left: 5px;
+	width: 27px;
+	height: 27px;
+	border-radius: 17px;
+	background: #0CD68A;
+	background-image: url(../img/seta-branca.png);
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .paragrafo-dois {
@@ -162,11 +185,12 @@ li {
 	color: #0CD68A;
 	line-height: 1.8125rem;
 	letter-spacing: 0.4em;
-	padding-top: 5rem;
-	padding-bottom: 1.25rem;
+	padding-top: 120px;
+	padding-bottom: 13px;
 	font-family: "Atyp";
 	font-weight: 700;
 	font-style: normal;
+	text-transform: uppercase;
 }
 
 .titulo-tres {
@@ -512,8 +536,114 @@ li {
 	margin: 0 auto;
 }
 
+.redes-sociais {
+	margin-left: 158px;
+	display: inline;
+	position: relative;
+	top: -55px;
+	cursor: pointer;
+}
+
+.input-email {
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 1100px;
+}
+
+.submit-email {
+	position: absolute;
+	left: 1721px;
+	width: 32px;
+	height: 32px;
+	background: #FFC63A;
+	border: none;
+	background-image: url(../img/seta-submit.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+
+}
+
+
+.email {
+	width: 360px;
+	height: 32px;
+	padding: 8px 0 8px 8px;
+	border: none;
+}
+
+.texto-privacidade {
+	display: block;
+	margin-top: 16px;
+	font-size: 13px;
+	line-height: 18px;
+	font-family: "Atyp";
+	font-weight: 400;
+	font-style: normal;
+	color: #ffffff;
+}
+
+.texto-alternativo {
+	width: 337px;
+	margin-top: 16px;
+	font-size: 13px;
+	line-height: 18px;
+	font-family: "Atyp";
+	font-weight: 400;
+	font-style: normal;
+	color: #ffffff;
+	display: inline-block;
+	position: relative;
+	bottom: 35px;
+	left: 20px;
+}
+
+.texto-alternativo > a {
+	font-size: 13px;
+	font-family: "Atyp";
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: underline;
+
+}
+
+.direitos {
+	font-family: "Atyp";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	color: #ffffff;
+	margin-left: 168px;
+	margin-top: 60px;
+	display: inline-block;
+	position: relative;
+	bottom: 35px;
+}
+
+.bandeira {
+	display: inline-block;
+	position: relative;
+	left: 1220px;
+	bottom: 30px;
+}
+
+.brasil {
+	display: inline-block;
+	color: #ffffff;
+	text-transform: uppercase;
+	position: relative;
+	left: 1224px;
+	bottom: 35px;
+	font-family: "Atyp";
+	font-weight: 700;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 15px;
+}
+
+
 @media screen and (max-width: 1368px) {
-	.container-header, .container-um, .container-dois, .container-tres, .container-quatro, .titulo-principal {
+	.container-header, .container-um, .container-dois, .container-tres, .container-quatro {
 		width: auto;
 		height: auto;
 		display: flex;
@@ -611,9 +741,64 @@ li {
 	}
 
 	.container-footer {
-		display: none;
+		width: auto;
+		height: auto;
+	}
+
+	.container-box-footer {
+		width: auto;
+		display: grid;
+	}
+
+	.box-footer-um {
+		margin: 0;
+		position: static;
+
 	}
 	
+	.box-footer-dois, .box-footer-tres {
+		margin: 0;
+		position: static;
+
+	}
+
+	.box-footer-quatro {
+		margin: 0;
+		position: static;
+	}
+
+	.linha-horizontal {
+		display: none;
+	}
+
+	.redes-sociais {
+		margin: 0 0 20px 10px;
+	}
+
+	.input-email {
+		display: grid;
+		margin: 0 0 0 10px;
+		width: auto;
+		
+	}
+
+	.email {
+		width: 260px;
+	}
+
+	.checkbox {
+		margin: -15px 0 20px 10px;
+		width: 290px;
+	}
+
+	.submit-email {
+		position: relative;
+		display: inline;
+		left: 260px;
+		top: -32px;
+		width: 40px;
+	}
+
 }
 
 
