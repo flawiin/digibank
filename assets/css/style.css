@@ -567,7 +567,7 @@ li:nth-child(4) {
 	margin-left: 158px;
 	display: inline;
 	position: relative;
-	top: -55px;
+	top: -95px;
 	cursor: pointer;
 }
 
@@ -654,7 +654,7 @@ li:nth-child(4) {
 .bandeira {
 	display: inline-block;
 	position: relative;
-	left: 1220px;
+	left: 965px;
 	bottom: 30px;
 }
 
@@ -663,7 +663,7 @@ li:nth-child(4) {
 	color: #ffffff;
 	text-transform: uppercase;
 	position: relative;
-	left: 1224px;
+	left: 970px;
 	bottom: 35px;
 	font-family: "Atyp";
 	font-weight: 700;
