@@ -72,11 +72,7 @@ li:nth-child(4) {
 .container-um {
     width: 120rem;
     height: 50.9375rem;
-    background: linear-gradient(
-        107.31deg,
-        #c1ffe8 -11.65%,
-        rgba(193, 255, 232, 0) 112.04%
-    );
+    background: linear-gradient(107.31deg, #c1ffe8 -11.65%, rgba(193, 255, 232, 0) 112.04%);
     overflow: hidden;
 }
 
@@ -603,15 +599,9 @@ li:nth-child(4) {
     border: none;
 }
 
-.texto-privacidade {
+.checkbox {
     display: block;
     margin-top: 16px;
-    font-size: 13px;
-    line-height: 18px;
-    font-family: 'Atyp';
-    font-weight: 400;
-    font-style: normal;
-    color: #ffffff;
 }
 
 .texto-alternativo {
@@ -672,10 +662,7 @@ li:nth-child(4) {
 }
 
 @media screen and (max-width: 1368px) {
-    .container-header,
-    .container-um,
-    .container-dois,
-    .container-tres {
+    .container-header, .container-um, .container-dois, .container-tres {
         width: auto;
         height: auto;
         display: flex;
@@ -749,10 +736,7 @@ li:nth-child(4) {
         justify-content: center;
     }
 
-    .box-um,
-    .box-dois,
-    .box-tres,
-    .box-quatro {
+    .box-um, .box-dois, .box-tres, .box-quatro {
         margin: 0 0 20px 0;
     }
 
@@ -782,9 +766,7 @@ li:nth-child(4) {
         text-align: center;
     }
 
-    .box-um-container-quatro,
-    .box-dois-container-quatro,
-    .box-tres-container-quatro {
+    .box-um-container-quatro, .box-dois-container-quatro, .box-tres-container-quatro {
         margin: 0;
         padding: 40px 10px;
     }
@@ -839,17 +821,18 @@ li:nth-child(4) {
     }
 
     .redes-sociais {
-        margin: 30px 0 20px 0px;
+        margin: 0;
         display: block;
         text-align: center;
+        padding-top: 60px;
     }
 
     .input-email {
-        margin: 0 0 0 0;
+        margin: 0;
         display: grid;
         flex-direction: column;
         justify-content: center;
-        padding: 0 0 0 25px;
+        width: auto;
     }
 
     .email {
@@ -857,41 +840,43 @@ li:nth-child(4) {
         flex-direction: column;
         justify-content: center;
         width: 280px;
-        margin: 0 0 0 20px;
+        margin: 0 auto;
     }
 
     .submit-email {
         position: relative;
         display: inline;
-        left: 270px;
+        left: 240px;
         top: -32px;
         width: 40px;
     }
 
-    .bandeira,
-    .brasil {
+    .bandeira, .brasil {
         display: none;
     }
 
     .direitos {
         padding: 30px 10px 20px 10px;
-        display: grid;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         margin: 0;
         text-align: center;
     }
 
-    .checkbox {
-        margin: 0 0 0 20px;
-    }
-
     .texto-alternativo {
-        font-size: 11px;
-        margin: 0 10px 0 20px;
+        font-size: 10px;
+        margin: 0;
+        display: inline-block;
+        width: auto;
+
+
     }
 
-    .texto-privacidade {
-        margin: 0 0 10px 20px;
+    .checkbox {
+        display: block;
+        margin: 0;
+        position: relative;
+        left: -10;
     }
 }
